@@ -57,7 +57,7 @@ jobs:
           title: "Update version to ${{ env.NEW_VERSION }}"
           body: |
             This PR updates the swagger-petstore version to ${{ env.NEW_VERSION }}.
-          base: main
+          base: master
           commit-message: "Update version to ${{ env.NEW_VERSION }}"
 
   # Step 5: CodeQL scanning on PR raise
